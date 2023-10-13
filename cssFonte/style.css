@@ -1,0 +1,11 @@
+ p{
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 2; /*espaço entre os textos*/
+ }
+
+ h1{
+    text-align: center;
+    text-decoration: underline;
+ }
