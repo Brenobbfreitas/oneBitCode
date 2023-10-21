@@ -1,11 +1,15 @@
  p{
-    font-family: Arial;
-    font-size: 10px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     line-height: 2; /*espaço entre os textos*/
+    text-align: center;
  }
 
  h1{
     text-align: center;
     text-decoration: underline;
+    font-family: 'Geostar', cursive;
+    margin: 45px 100px 200px 28px;
+    width: 50%;
  }
