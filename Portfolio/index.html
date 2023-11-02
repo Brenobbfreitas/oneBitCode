@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
         integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
@@ -30,6 +31,13 @@
                         Contato
                     </a>
                 </div>
+                
+                <div class="Toggle">
+                    <input id="switch" type="checkbox" name="theme">
+                    <label for="switch">Toggle</label>
+                </div>
+            </div>
+
         </nav>
     </header>
     <section class="section">
@@ -46,7 +54,7 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-4">Breno Barreto</p>
-                                    <span class="tag is-dark is-medium">C# Full-Stack Developer</span>
+                                    <span class="tag is-dark is-medium">Full-Stack Developer</span>
                                 </div>
                             </div>
                             <div>
@@ -95,28 +103,63 @@
                                 <div class="columns">
                                     <div class="column">
                                         <figure class="image is-128x128">
-                                            <img class="is-rounded"
-                                                src="https://bulma.io/images/placeholders/128x128.png">
+                                            <img class="is-rounded" src="img/logoinfo.png ">
                                         </figure>
                                     </div>
                                     <div class="column is-9">
                                         <p class="title is-5">C# Full-Stack Developer <span class="tag is-dark">Empresa
                                                 Info Public</span></p>
-                                        <p></p>
+                                        <p>Trablar com .NET e React me permitiu criar
+                                            aplicações web modernas e responsivas, atendendo às necessidades dos
+                                            usuários e
+                                            oferecendo uma experiência intuitiva. Também utilizei o Bootstrap para
+                                            garantir a consistência
+                                            visual e a usabilidade das interfaces.
+                                            No desenvolvimento do sistema web, pude aplicar meus conhecimentos em Visual
+                                            Basic,
+                                            criando soluções eficazes e de fácil utilização para os usuários. Além
+                                            disso, aprofundei
+                                            meu domínio em linguagens como JavaScript e TypeScript, que são essenciais
+                                            para o
+                                            desenvolvimento de aplicações web interativas e dinâmicas.
+                                            Em relação aos bancos de dados, trabalhei com Microsoft SQL Server e Oracle,
+                                            realizando modelagem de dados, consultas complexas e otimização de
+                                            desempenho. Tenho
+                                            familiaridade com a criação e manutenção de estruturas de bancos de dados,
+                                            garantindo a
+                                            integridade e a segurança dos dados.</p>
                                     </div>
                                 </div>
                                 <hr>
                                 <div class="columns">
                                     <div class="column">
                                         <figure class="image is-128x128">
-                                            <img class="is-rounded"
-                                                src="https://bulma.io/images/placeholders/128x128.png">
+                                            <img class="is-rounded" src="img/logoenergisa.png">
                                         </figure>
                                     </div>
                                     <div class="column is-9">
-                                        <p class="title is-5">C# Full-Stack Developer <span class="tag is-dark">Empresa
-                                                Info Public</span></p>
-                                        <p></p>
+
+                                        <p class="title is-5">Analista de Sistemas <span class="tag is-dark">Empresa
+                                                Energisa</span></p>
+                                        <p> Comunicação fluida com os clientes, informando
+                                            sobre o progresso dos chamdos, de forma clara e eficiente. Utilizando canais
+                                            de comunicação
+                                            como micrososft teams, outlook para garantir o atendimento. Realizei
+                                            atendimentos aos
+                                            clientes, solucinando dúvidas e problemas relacionadas ao sistema, agindo
+                                            com rapidez
+                                            e eficácia. Demonstrei proatividade no atendimento, antecipando possíveis
+                                            questões e
+                                            fornecendo orientações relevantes aos clientes, para evitar remanejamento de
+                                            tarefas.
+                                            Responsabilizei-me pela triagem dos tickets abertos pelos clientes,
+                                            categorizando-os
+                                            de acordo com o tipo de ticket ou status do atendimento utilizando o azure
+                                            devops.
+                                            Contribuí ativamente nos processos de melhoria do sistema, detectando novas
+                                            soluções e
+                                            identificando problemas e questões relevantes
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -132,12 +175,12 @@
                         </header>
                         <div class="card-content">
                             <div class="content">
-                            <p class="title is-5">C# Full-Stack</p>
-                            <p>
-                                Sou um desenvolvedor de sistemas formado em Ciência da Computação, com 2 anos de
-                                experiência na área. Possuo habilidades que incluem: .NET, React, Bootstrap, Visual
-                                
-                            </p>
+                                <p class="title is-5">C# Full-Stack</p>
+                                <p>
+                                    Sou um desenvolvedor de sistemas formado em Ciência da Computação, com 2 anos de
+                                    experiência na área. Possuo habilidades que incluem: .NET, React, Bootstrap, Visual
+
+                                </p>
                             </div>
                             <hr>
                             <div class="content">
@@ -149,18 +192,20 @@
                                     bancos de dados como Microsoft SQL Server, MySQL e Oracle.
                                     Tenho domínio em diversas ferramentas de desenvolvimento, como Git, Azure DevOps,
                                     Microsoft Visual Studio, Scrum e Agile, que me permitem criar soluções eficientes e
-                                    colaborativas. Além disso, estou familiarizado com a orquestração de ambientes usando
+                                    colaborativas. Além disso, estou familiarizado com a orquestração de ambientes
+                                    usando
                                     Zabbix, Docker e Kubernetes, e possuo conhecimento em computação em nuvem, tanto no
                                     ambiente Azure quanto AWS.
-                                
+
                                 </p>
-                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
