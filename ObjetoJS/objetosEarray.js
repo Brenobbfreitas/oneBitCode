@@ -7,6 +7,8 @@
 
 // console.log(spaceShips[0].name);
 
+
+//// arrow fuction para percorrer o array /////
 // spaceShips.forEach(spaceShip =>{
 //     alert(spaceShip.name + " tem "+ spaceShip.crew+ " tripulantes" )
 // })
