@@ -19,8 +19,9 @@ function overMe() {
 }
 
 
-var btn = document.querySelector(".changeButton");
+var btn = document.querySelector(".changeColorButton");
 
+var btnRemove = document.querySelector(".removeColor");
 
 
 function random(number) {
@@ -34,4 +35,14 @@ function bgChange() {
   document.body.style.backgroundColor = rndCol;
 }
 
-btn.clickMe = bgChange;
+function bgRemove() {
+    var colorWhite = "rgb(255, 255, 255)";
+    document.body.style.backgroundColor = colorWhite;
+}
+
+
+
+
+btn.addEventListener("click", bgChange)
+
+btnRemove.addEventListener("click", bgRemove)
