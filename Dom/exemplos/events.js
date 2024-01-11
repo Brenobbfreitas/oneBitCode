@@ -14,9 +14,6 @@ function changeMe() {
     console.log("Fui alterado");
 }
 
-function overMe() {
-    console.log("Mouse aqui");
-}
 
 
 var btn = document.querySelector(".changeColorButton");

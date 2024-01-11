@@ -30,8 +30,25 @@
         <input type="text" name="change-text" onchange="changeMe()">
     </p>
 
-    <p onmouseover="overMe()">Passe o mouse sobre mim!</p>
-    <script src="./events.js"></script>
+    <button onclick="show()">Exibir!</button>
 
+    <p>
+        <label>Nome: </label>
+        <input type="text" id="name" name="fullname">
+    </p>
+    <div id="phones">
+        <p>
+            <label>Phone 01</label>
+            <input type="text" id="phone01" name="phone">
+        </p>
+
+        <p>
+            <label>Phone 02</label>
+            <input type="text" id="phone02" name="phone">
+        </p>
+    </div>    
 </body>
+<script src="./events.js"></script>
+<script src="./selectingElements.js"></script>
+
 </html>
