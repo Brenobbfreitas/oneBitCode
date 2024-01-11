@@ -15,5 +15,7 @@ btn.addEventListener("click", addNewPhone);
 function printPhones() {
     mensagem = "";
     const phones = document.querySelectorAll("input[name='phone']")
-    phones.forEach(phone, index)
+    phones.forEach((phone, index) => {
+        mensagem += "Telefone" + (index + 1) + ":"+ phone.value + "\n" 
+    })
 }
