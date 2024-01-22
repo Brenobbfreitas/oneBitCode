@@ -4,7 +4,7 @@ function addNewPhone() {
     const phonePosition = phoneForme.children.length + 1
     newPhone.querySelector("label").innerText = "Telefone " + phonePosition + ":"
     phoneForme.appendChild(newPhone)
-    console.log(phoneForme);
+    console.log(phoneForme.children);
 }
 
 
@@ -18,4 +18,6 @@ function printPhones() {
     phones.forEach((phone, index) => {
         mensagem += "Telefone" + (index + 1) + ":"+ phone.value + "\n" 
     })
+
+    alert(mensagem)
 }
