@@ -5,6 +5,20 @@ function saveHouse() {
     let bairro = document.querySelector("input[name='bairro']").value;
 
     let newListValue = document.createElement("li")
+    newListValue.innerText = area + "m2, \n Numero:" + numero + "\n Cidade:" + cidade + "\n Bairro:" + bairro +"\n";
 
-    newListValue.innerText = area + "m2, \n numero:" + numero + "\n cidade:" + cidade + "\n No bairro:" + bairro ;
+
+    //criando elemento botão
+    let removeButton = document.createElement("button")
+    removeButton.type = "button"
+    removeButton.innerText = "Remove"
+    removeButton.setAttribute("onclick", "removeHouse(this)")
+
+    newListValue.appendChild(removeButton)
+
+    document.getElementById("listaCasa").appendChild(newListValue)
+}
+
+function removeHouse(){
+     
 }
