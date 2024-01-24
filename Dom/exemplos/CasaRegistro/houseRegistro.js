@@ -19,6 +19,10 @@ function saveHouse() {
     document.getElementById("listaCasa").appendChild(newListValue)
 }
 
-function removeHouse(){
-     
+function removeHouse(button){
+    let liToRemove = button.parentNode;
+    document.getElementById("listaCasa").removeChild(liToRemove);   
+    console.log(liToRemove); 
+    console.log(button); 
+
 }
